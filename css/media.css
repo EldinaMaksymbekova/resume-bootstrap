@@ -1,0 +1,18 @@
+@media screen and (min-width: 768px){
+    .section-content{
+        margin-top: 50px;
+    }
+    .p50{
+        padding: 50px;
+    }
+    .about-img {
+        width: 230px;
+        height: 230px;}
+
+    .section-title h2 {
+        margin: 100px 0 0;
+    }
+    .col-6 {
+        width: calc(50% - 30px);
+    }
+}

@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+}
+body {
+    font-family: "Sans Serif", "Arial", sans-serif;
+    line-height: 1;
+    background: rgba(0,0,0,0.5) url("../images/macbook-minimal-dark-wallpaper.jpg") 50% 50%/cover no-repeat ;
+    color: #ffffff;
+    background-blend-mode:darken ;
+
+}
+.about-img-content {
+    text-align: center;
+}
+
+.about-img {
+    width: 100%;
+    height: 460px;
+    margin: 0 auto;
+    background: url("../images/IMG_20200502_171915_683.jpg") center top/cover no-repeat;
+}
+.about-name {
+
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 1.7;
+    font-family:  'Dosis','Open Sans', sans-serif;
+    margin: 25px 0 0;
+    color: #13c90a;
+}
+.about-title {
+padding: 15px 0;
+font-size: 14px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 25px;
+    position: relative;;
+}
+
+.about-title:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    display: inline-block;
+    width: 80%;
+    height: 3px;
+    background: #13c90a;
+    border-radius: 30px;
+}
+p {margin-bottom: 0;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.8;
+color: #ffffff;
+font-family:  'Dosis','Open Sans', sans-serif;
+}
+
+
+.about-data > div {
+margin-top: 20px;
+font-size: 17px;
+    margin-left: 30px;
+ color: #26b40b;
+    line-height: 30px;
+}
+.about-data > div:first-of-type {
+margin-top: 30px;
+}
+.section-title h2 {
+margin: 40px 0 0;
+font-size: 2.8rem;
+font-weight: 700;
+letter-spacing: 5px;
+text-transform: uppercase;
+text-align: center;
+    color: #13c90a;
+}
+.icon-row{
+    margin-top: 40px;
+    display: flex;
+}
+.icon-web{
+    margin: 0 30px;
+
+}
+.progress-bar-wrapper:first-of-type {
+margin-top: 0;
+}
+.progress-text {
+display: flex;
+font-size: 20px;
+font-weight: 600;
+text-align: left;
+text-transform: capitalize;
+color: #ffffff;
+font-family:  'Dosis','Open Sans', sans-serif;
+    margin: 25px 0;
+}
+.progress-percent{
+    display: flex;
+    font-size: 20px;
+    margin: 25px 0;
+}
+.progress-bar-wrapper {
+margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.progress-bar {
+position: relative;
+overflow: hidden;
+width: 100%;
+height: 15px;
+background: #ffff;
+border-radius: 3px;
+    margin: 30px 0;
+}
+.progress-bar > span {
+display: block;
+width: 80%;
+height: 100%;
+background-color: #13b507;
+}
+.date-experience{
+    color:#13c90a ;
+    font-size: 26px;
+    display: block;
+    margin-top: 80px;
+    margin-left: 30px;
+    position: absolute;
+}
+.position-experience{
+    text-transform: uppercase;
+    color: #13c90a;
+    margin-top: 15px;
+}
+.box-experience{
+    width: 60%;
+    margin: 0 33%;
+    position: relative;
+}
+.about-experience{
+    margin-left: 10px;
+    line-height: 45px;
+}
+.highlight {
+margin-bottom: 16px;
+background-color: #0000001a;
+border-radius: 5px;
+    color: #ffffff;;
+}
+.highlight pre {
+padding: 16px;
+overflow: auto;
+font-size: 14px;
+line-height: 1.45;
+background-color: #13131336;
+}
+.connect-name{
+    font-size: 1.4rem;
+}
+.connect-title{
+    font-size: 14px;
+    letter-spacing: 12px;
+}
+.connect-title:before {
+    content: '';
+    width: 64%;
+}
+.connect-data > div {
+    margin-top: 20px;
+    font-size: 17px;
+    color: #ffffff;
+    line-height: 30px;
+    margin-left: 0;
+}
+
+
+.login-form__input{
+    width: 49%;
+    height: 35px;
+    margin-bottom: 20px;
+    border: none;
+    background: #dadada;
+    padding: 0 15px;
+}
+.login-form_subject{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 20px;
+    border: none;
+    background: #dadada;
+    padding: 0 15px;
+}
+.login-form_message{
+    width: 100%;
+    height: 120px;
+    margin-bottom: 20px;
+    border: none;
+    background: #dadada;
+    padding: 0 15px;
+}
+.submit_input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border: none;
+    background: #13c90a;
+    padding: 0 15px;
+    transition: .5s;
+}
+.submit_input:hover{
+    background: #13ff0a;
+}
+code, kbd, samp {
+font-family: monospace, monospace;
+font-size: 1em;
+}
+.copyright-text {
+margin-top: 50px;
+width: 100%;
+padding: 20px 0;
+font-family:  'Dosis','Open Sans', sans-serif;
+font-size: 1.4rem;
+font-weight: 600;
+letter-spacing: 3px;
+text-transform: uppercase;
+text-align: center;
+color: #ffffff;
+background: #13c90a;;
+}
